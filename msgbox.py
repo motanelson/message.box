@@ -20,3 +20,6 @@ def show(title:str,text:str,backgrouds:str,foregrounds:str):
     root=tk.Tk()
     apps=myapps(root,title,text,backgrouds,foregrounds)
     root.mainloop()
+
+
+show(title="hello",text="hello world.......\n<<<<<<<<<<",foregrounds="white",backgrouds="black")
